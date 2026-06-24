@@ -8,7 +8,7 @@ from visualize import save_model, save_samples
 
 def main():
     # -- CONFIG --
-    RUN_SEARCH = False  # False skips the search and trains the base config directly
+    RUN_SEARCH = True  # False skips the search and trains the base config directly
 
     base_model = ModelConfig()
     base_train = TrainConfig(epochs=40)
