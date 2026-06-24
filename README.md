@@ -11,8 +11,9 @@ uv sync
 ```
 
 ## run
-if you want to change things, update them in `config.py` or at the start of `main.py`
-otherwise:
+To run with different configurations (e.g. other model modes) update them in `config.py` or at the start of `main.py`.
+By default, this runs lab classification with the report's best found search parameters.
+
 ```bash
 uv run python main.py
 ```
